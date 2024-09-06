@@ -1,0 +1,83 @@
+/* Style.css */
+
+/* Geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #3c763d; /* Verde escuro */
+    color: white;
+    padding: 1rem;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+    display: block;
+}
+
+/* Seção Hero */
+.hero {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Seção Features */
+.features {
+    background-color: #e0e0e0; /* Cinza claro */
+    padding: 2rem 1rem;
+}
+
+.feature-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature-item {
+    margin: 0.5rem 0;
+}
+
+.feature-item a {
+    color: #3c763d; /* Verde escuro */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Rodapé */
+footer {
+    background-color: #3c763d; /* Verde escuro */
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}

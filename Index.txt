@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Produtos</title>
+    <style>
+        /* Adicione seu estilo aqui */
+    </style>
+</head>
+<body>
+    <h1>Produtos</h1>
+    <div id="product-list">
+        <!-- Lista de produtos vai aqui -->
+    </div>
+    <h2>Carrinho</h2>
+    <div id="cart">
+        <!-- Itens do carrinho vão aqui -->
+    </div>
+    <button onclick="checkout()">Finalizar Pedido</button>
+
+    <script>
+        // JavaScript para gerenciar o carrinho e finalização do pedido
+    </script>
+</body>
+</html>
